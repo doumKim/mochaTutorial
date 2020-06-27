@@ -4,11 +4,15 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha"
+		"test": "mocha --require @babel/register --recursive"
 	},
 	"author": "doumKim",
 	"license": "MIT",
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.10.3",
+		"@babel/preset-env": "^7.10.3",
+		"@babel/register": "^7.10.3",
 		"mocha": "^8.0.1"
 	}
 }

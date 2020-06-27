@@ -1,0 +1,14 @@
+{
+	"name": "maketestbuilder",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"author": "doumKim",
+	"license": "MIT",
+	"dependencies": {
+		"mocha": "^8.0.1"
+	}
+}
